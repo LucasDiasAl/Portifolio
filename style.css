@@ -1,18 +1,46 @@
+/* importando fonte do site do google */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap");
+/* USANDO LINEAR-GRADIENT PARA FAZER UM FUNDO DEGRADE,DEFININDO TBM UMA FONTE COR E TAMANHOS PADROES */
 body {
   background-color: rgb(4, 41, 153);
+  color: rgba(255, 255, 255, 255);
+  font-family: "cascadia", "monospace" sans-serif;
+  font-size: 17px;
+  margin: -25px auto;
   background-image: linear-gradient(
     to right,
-    rgba(7, 8, 10, 0.7),
-    rgba(8, 26, 85, 0.9),
-    rgba(8, 26, 85, 0.9),
-    rgba(7, 8, 10, 0.7)
+    rgba(0, 0, 0, 0.85) 0.2%,
+    rgba(9, 21, 46, 0.7) 20%,
+    rgba(8, 26, 85, 0.9) 40%,
+    rgba(9, 21, 46, 0.7) 80%,
+    rgba(0, 0, 0, 0.85) 98.8%
   );
-  width: 250px;
-  color: aliceblue;
-  /* font-family: Courier, monospace, sans-serif; */
-  font-size: 15px;
 }
-#Titulo{
-    font-family: ;
-    color: aquamarine;
+#Titulo {
+  font-family: "Cinzel Decorative";
+  font-size: 4em;
+  width:max-content ;
+  margin: 10px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ProfileImage{
+width: 40%;
+padding-left: 30%;
+padding-right: 30%;
+
+}    
+.Subtitulos {
+  font-family: "Cinzel Decorative";
+  font-size: 1em;
+  color: goldenrod;
+  border-top: 1px solid rgb(255, 255, 255);
+  width:40%;
+  padding: 10px auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 30%;
+    padding-right: -30%;
 }
