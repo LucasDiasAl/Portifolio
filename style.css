@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(4, 41, 153);
+  background-image: linear-gradient(
+    to right,
+    rgba(7, 8, 10, 0.7),
+    rgba(8, 26, 85, 0.9),
+    rgba(8, 26, 85, 0.9),
+    rgba(7, 8, 10, 0.7)
+  );
+  width: 250px;
+  color: aliceblue;
+  /* font-family: Courier, monospace, sans-serif; */
+  font-size: 15px;
+}
+#Titulo{
+    font-family: ;
+    color: aquamarine;
+}
